@@ -109,7 +109,7 @@ main .main-container .main-container-buttom a {
 
     .img-post-00{
 
-        max-width: 380px;;
+        max-width: 380px;
     }
 
 .blogs-news-container{
@@ -153,6 +153,7 @@ main .main-container .main-container-buttom a {
     display: inline-block;
     padding-left: 10px;
     max-width: 30%;
+    margin-top: 10px;
     margin-bottom: 50px;
    }
    .blogs-posts-container .post-container p{
@@ -213,8 +214,8 @@ main .main-container .main-container-buttom a {
     width: 100px;
    }
   .profile-main-container{
-    padding: 70px 40px;
-    background-color: #e6e9ed;
+    padding: 70px 20px;
+    background-color: #cdb4db;
     margin-bottom: 50px;
 
   }
@@ -229,6 +230,10 @@ main .main-container .main-container-buttom a {
   .profile-main-projects{
     padding: 0 50px;
   }
+  .project-img{
+    max-width: 350px;
+   
+  }
   .profile-main-projects h3{
     border-bottom: 1px solid #cdd2da; 
     padding-bottom: 35px;
@@ -237,7 +242,17 @@ main .main-container .main-container-buttom a {
 .project-main-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
 }
 .project-container{
     padding: 0 5px;
+}
+.perfil-blogs-button{
+    margin-bottom: 20px;
+    border: 1px solid #ffafcc;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #cdd2da;
+  
+  
 }
