@@ -20,9 +20,11 @@
     .profile-main-container .profile-container{
         display: block;
     }
-}
+  
+
 @media(max-width: 600px){
     .blogs-posts-container .post-container{
         max-width: 95%;
     }
-}
+   
+} 

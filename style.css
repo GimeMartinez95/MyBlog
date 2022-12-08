@@ -79,17 +79,17 @@ nav .profile-link a{
     background-position: center;
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 main .main-container {
-    text-align: center;
     margin-top: 5.7rem;
     font-family: monospace;
 }
 main .main-container .main-container-title {
+    width: 100%;
     color: black;
     letter-spacing: 10px;
-    font-size: 40px;
-    width: 50rem;
+    font-size: 4rem;
 }
 main .main-container .main-container-buttom {
     height: 40px;
